@@ -1,0 +1,132 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    margin: 0 auto;
+    background-image: url("./assets/background1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    opacity: 0.9
+    
+    
+} 
+ h1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 13px;
+    color:#92c83e !important;
+} 
+p{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    color:azure !important; 
+}
+a{
+    text-decoration: none;
+}
+
+.monitoringCard{
+    width: 80%;
+    margin: 0 auto;
+}
+h5{
+    color:#92c83e !important;
+}
+.card-body p{
+    color: #483f2b !important;
+}
+.monitoringCard{
+    margin-bottom: 40px;
+    
+}
+
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  }
+
+
+footer{
+    border-top: 1px solid #92c83e;
+    height: 60px;
+    background-color: transparent;
+    padding: 10px;
+}
+.footer{
+    text-align: end;
+    color: grey;
+    font-weight: bold;
+}
+
+
+
+
+ /* ********************************* for REAL TIME MONITORING SHEET************************************** */
+
+
+
+ 
+ /* Default (for larger than 1280px) */
+.responsive-iframe-wrapper {
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 70%; /* adjust for your dashboard height */
+  overflow: hidden;
+}
+
+.responsive-iframe-wrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+/* Extra Small Devices (≤576px) */
+@media (max-width: 576px) {
+  .responsive-iframe-wrapper {
+    padding-bottom: 280%;
+  }
+
+  .topHeading{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+  }
+}
+
+/* Small to Medium Devices (577px - 768px) */
+@media (min-width: 577px) and (max-width: 768px) {
+  .responsive-iframe-wrapper {
+    padding-bottom: 220%;
+  }
+  .topHeading{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+  }
+}
+
+/* Large Devices (769px - 1280px) */
+@media (min-width: 769px) and (max-width: 1280px) {
+  .responsive-iframe-wrapper {
+    padding-bottom: 120%;
+  }
+  .topHeading{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+  }
+}
