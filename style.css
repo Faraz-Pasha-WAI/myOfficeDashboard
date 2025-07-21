@@ -97,7 +97,7 @@ footer{
 /* Extra Small Devices (≤576px) */
 @media (max-width: 576px) {
   .responsive-iframe-wrapper {
-    padding-bottom: 280%;
+    padding-bottom: 210%;
   }
 
   .topHeading{
@@ -110,7 +110,7 @@ footer{
 /* Small to Medium Devices (577px - 768px) */
 @media (min-width: 577px) and (max-width: 768px) {
   .responsive-iframe-wrapper {
-    padding-bottom: 220%;
+    padding-bottom: 170%;
   }
   .topHeading{
     width: 80%;
